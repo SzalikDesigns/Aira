@@ -54,7 +54,7 @@ license:       creative commons CC-BY-NC-SA
       <include name="custom" displayName="Custom" />
    </subset>
  
-    <!-- Logo Source -->
+    <!-- Game Counter -->
    <subset name="game-counter" displayName="Game Counter">
       <include name="true" displayName="Visible" />
       <include name="false" displayName="Hidden" />
@@ -299,7 +299,7 @@ license:       creative commons CC-BY-NC-SA
 
    <view name="screen">
 		<text ifSubset="aspect-ratio:5-3|16-9" name="clock" name="batteryIndicator">
-			<fontPath>${bodyFont}</fontPath>
+			<!--<fontPath>${bodyFont}</fontPath>-->
 			<fontSize>0.04</fontSize>
 			<pos>0.015009380863039 0.015</pos>
 			<color>ffffffbb</color>
