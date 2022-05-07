@@ -17,7 +17,7 @@ Built and tested on [AmberELEC](https://AmberELEC.org).
 
 ---
 
-# Previews examples
+# Previews
 
 ## System 
 |  |   |
