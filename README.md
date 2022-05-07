@@ -10,7 +10,9 @@ Built and tested on [AmberELEC](https://AmberELEC.org).
 ---
 
 # Credits
-[anthonycaccese](https://github.com/anthonycaccese). for building xml's
+**
+REALLY BIG BIG THANKS FOR :**
+[anthonycaccese](https://github.com/anthonycaccese). for building xml's and editing logos
 
 ---
 
