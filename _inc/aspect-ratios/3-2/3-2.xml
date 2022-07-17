@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 theme name:     Aira 3:2
-xml author:     Anthony Caccese
+xml author:     Anthony Caccese & Szalik
 license:        creative commons CC-BY-NC-SA
 -->
 <theme>
@@ -28,14 +28,14 @@ license:        creative commons CC-BY-NC-SA
          <size>0.341666666666667 0.7125</size><!-- 164 228 -->
          <lineSpacing>1.6</lineSpacing>
          <fontSize>0.0375</fontSize><!-- 12 -->
+         <zIndex>3</zIndex>
       </textlist>
-      <image name="gamelist-background" extra="true">
+      <image name="gamelist-mask" extra="true">
          <pos>0 0</pos>
-         <size>0.433333333333333 1</size><!-- 208 320 -->
-      </image>
-      <image name="gamelist-border" extra="true">
-         <pos>0.433333333333333 0</pos><!-- 208 -->
-         <size>0.004166666666667 1</size><!-- 2 320 -->
+         <size>1 1</size>
+         <path>./_inc/images/systems/fullscreen/480x320/backgrounds/default-3-2.png</path>
+		 <path>./_inc/images/systems/fullscreen/480x320/backgrounds/${system.theme}.png</path>
+         <zIndex>2</zIndex>
       </image>
    </view>
 
