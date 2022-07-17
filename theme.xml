@@ -59,6 +59,12 @@ license:       creative commons CC-BY-NC-SA
       <include name="true" displayName="Visible" />
       <include name="false" displayName="Hidden" />
    </subset>
+ 
+	<!-- Display Clock -->
+	<subset name="display-clock" displayName="Display Clock">
+		<include name="yes" displayName="Yes" />
+		<include name="no" displayName="No" />
+	</subset>
 
    <!-- Gamelist Font Size -->
    <subset name="gamelist-font-size" displayName="Gamelist Font Size">
@@ -298,11 +304,13 @@ license:       creative commons CC-BY-NC-SA
    </view>
 
    <view name="screen">
-		<text ifSubset="aspect-ratio:5-3|16-9" name="clock" name="batteryIndicator">
-			<!--<fontPath>${bodyFont}</fontPath>-->
-			<fontSize>0.04</fontSize>
-			<pos>0.015009380863039 0.015</pos>
-			<color>ffffffbb</color>
+		<text name="clock">
+			 <pos ifSubset="display-clock:yes">0.015009380863039 0.0125</pos>
+			 <pos ifSubset="display-clock:no">1 1</pos>
+			 <fontPath>${bodyFont}</fontPath>
+			 <fontSize>0.03125</fontSize>
+			 <size>0 0</size>
+			 <color>ffffffbb</color>
 		</text>
 
       <batteryIndicator name="batteryIndicator">
